@@ -1,4 +1,4 @@
-package bordergame;
+package boardgame;
 
 public class Position {
     
@@ -20,6 +20,11 @@ public class Position {
         return column;
     }
     public void setColumn(int column) {
+        this.column = column;
+    }
+
+    public void setValues(int row, int column){
+        this.row = row;
         this.column = column;
     }
 
